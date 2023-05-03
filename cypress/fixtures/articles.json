@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Intercepted response",
+        "description": "You can use this functionality to mock your own testdata",
+        "image": "https://i.imgur.com/X9tFnW8.jpeg",
+        "price": 29.99,
+        "inventory": 10
+    }
+]

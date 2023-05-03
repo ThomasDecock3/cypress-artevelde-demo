@@ -1,0 +1,9 @@
+{
+    "LOGIN":{
+        "TITLE": "Login",
+        "GEBRUIKERSLABEL": "Gebruikersnaam:",
+        "GEBRUIKERSINPUT": "admin",
+        "WACHTWOORDLABEL": "Wachtwoord:",
+        "WACHTWOORDINPUT": "admin123"
+    } 
+}
