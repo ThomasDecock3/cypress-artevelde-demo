@@ -1,6 +1,6 @@
+import loginData from '../../data-objects/loginData.json'
 import { homePage } from '../../page-objects/homePage.js'
 import { loginPage } from '../../page-objects/loginPage.js'
-import loginData from '../data-objects/loginData.json'
 
 
 const URL = 'http://localhost:3000'
@@ -30,7 +30,7 @@ describe('Login page', () => {
 		cy.get(homePage.navbar.homeButton).should('not.exist')
 	})
 
-	it.only('I should not be able to log in when I enter the wrong username', () => {
+	it('I should not be able to log in when I enter the wrong username', () => {
 		cy.get(loginPage.loginTitle).should('contain', loginData.LOGIN.TITLE)
 		cy.get(loginPage.gebruikersnaamLabel).should('contain', loginData.LOGIN.GEBRUIKERSLABEL),
 		cy.get(loginPage.gebruikersnaamInput).should('be.visible').type('wrongUsername')
